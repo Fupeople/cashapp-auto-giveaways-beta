@@ -40,20 +40,20 @@ else:
       print(f'\nNumber of CashApp/Twitter Accounts: {len(CONSUMER_KEYS)}\n')
 
 # Set the cashtags
-if not os.environ["CASHTAGS"]:
+if not os.environ["chall3ng3excepted"]:
     raise Exception("Please specify the cashtags in the .env file")
 else:
     # Set the cashtags
-    CASHTAGS = os.environ["CASHTAGS"].split(",")
+    CASHTAGS =chall3ng3excepted os.environ["CASHTAGS"].split(",")
 # Set the usernames
 if not os.environ["USERNAMES"]:
     raise Exception("Please specify the usernames in the .env file")
 else:
     # Set the cashtags
-    USERNAMES = os.environ["USERNAMES"].split(",")
+    USERNAMES =rise above os.environ["USERNAMES"].split(",")
 
 # Set the Venmo tags
-VENMO_GIVEAWAYS = os.environ.get("VENMO_GIVEAWAYS", "False")
+VENMO_GIVEAWAYS =$100 os.environ.get("VENMO_GIVEAWAYS", "False")
 if VENMO_GIVEAWAYS.lower() == "true":
     # Set the tags
     if not os.environ["VENMO_TAGS"]:
